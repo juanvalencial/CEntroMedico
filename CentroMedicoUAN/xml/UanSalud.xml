@@ -1,0 +1,72 @@
+<centro_medico>
+	<nombre>Colsanitas</nombre>
+	<municipio>Bogotá</municipio>
+	<direccion>Calle 22 Sur No. 12D - 81</direccion>
+	<telefono>209 3888</telefono>
+	<servicios>
+		<servicio nombre="Medicina General">
+			<descripcion>Consultas medicina general</descripcion>
+			<duracion>20</duracion>
+			<complejidad>5</complejidad>
+			<costo>10000</costo>
+		</servicio>
+		<servicio nombre="Pediatría">
+			<descripcion>Consultas pediatria</descripcion>
+			<duracion>30</duracion>
+			<complejidad>4</complejidad>
+			<costo>12500</costo>
+		</servicio>
+		<servicio nombre="Medicina Interna">
+			<descripcion>Consultas medicina interna</descripcion>
+			<duracion>40</duracion>
+			<complejidad>3</complejidad>
+			<costo>15000</costo>
+		</servicio>
+	</servicios>
+	<medicos>
+		<medico identificacion="79791111">
+			<nombre>Jaime Alberto</nombre>
+			<apellido>Cortes Sierra</apellido>
+			<telefono>315 234 5678</telefono>
+			<disponibilidad>
+				<fecha dia="2017-12-04" horainicio="08:00" horafin="12:00" />
+				<fecha dia="2017-12-05" horainicio="10:00" horafin="14:00" />
+				<fecha dia="2017-12-06" horainicio="12:00" horafin="16:00" />
+				<fecha dia="2017-12-07" horainicio="14:00" horafin="18:00" />
+			</disponibilidad>
+			<especialidades>
+				<especialidad nombre="Medicina General" />
+				<especialidad nombre="Medicina Interna" />
+			</especialidades>
+		</medico>
+		<medico identificacion="79791112">
+			<nombre>Juan Carlos</nombre>
+			<apellido>Rodriguez Mendez</apellido>
+			<telefono>315 876 5432</telefono>
+			<disponibilidad>
+				<fecha dia="2017-12-08" horainicio="08:00" horafin="12:00" />
+				<fecha dia="2017-12-09" horainicio="14:00" horafin="18:00" />
+				<fecha dia="2017-12-10" horainicio="08:00" horafin="12:00" />
+				<fecha dia="2017-12-11" horainicio="14:00" horafin="18:00" />
+			</disponibilidad>
+			<especialidades>
+				<especialidad nombre="Medicina General" />
+				<especialidad nombre="Pediatría" />
+			</especialidades>
+		</medico>
+		<medico identificacion="79791113">
+			<nombre>Germán Hernando</nombre>
+			<apellido>Jimenez Niño</apellido>
+			<telefono>315 222 3344</telefono>
+			<disponibilidad>
+				<fecha dia="2017-12-12" horainicio="08:00" horafin="12:00" />
+				<fecha dia="2017-12-13" horainicio="14:00" horafin="18:00" />
+				<fecha dia="2017-12-14" horainicio="08:00" horafin="12:00" />
+				<fecha dia="2017-12-15" horainicio="14:00" horafin="18:00" />
+			</disponibilidad>
+			<especialidades>
+				<especialidad nombre="Medicina General" />
+			</especialidades>
+		</medico>
+	</medicos>
+</centro_medico>

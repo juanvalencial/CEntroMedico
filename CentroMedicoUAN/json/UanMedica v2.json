@@ -1,0 +1,131 @@
+{
+   "nombre": "Salud Total",
+   "ciudad": "Medellin",
+   "direccion": "Calle 52 No. 40 - 88",
+   "telefono": "(4) 216 1003",
+   "datos": {
+      "servicio": [
+         {
+            "codigo": "MG",
+            "nombre": "Medicina Plastica",
+            "tiempo": "20",
+            "complejidad": "5",
+            "valor": "10000",
+            "descripcion": "Consultas de medicina Plastica."
+         },
+         {
+            "codigo": "OD",
+            "nombre": "Odontologia",
+            "tiempo": "30",
+            "complejidad": "4",
+            "valor": "5000",
+            "descripcion": "Odontologia general, higiene oral, cirugia oral."
+         },
+         {
+            "codigo": "MI",
+            "nombre": "Medicina Interna",
+            "tiempo": "40",
+            "complejidad": "3",
+            "valor": "15000",
+            "descripcion": "Atiende integralmente los problemas de salud en pacientes adultos."
+         }
+      ],
+      "doctor": [
+         {
+            "cedula": "80801111",
+            "nombre": "Juan Carlos",
+            "apellido": "Ortiz Orozco",
+            "telefono": "316 234 5678",
+            "especialidades": "MG, MI",
+            "semana": [
+               {
+                  "numero": "49",
+                  "dia": "Lunes, Miercoles",
+                  "asignacion": [
+                     {
+                        "inicio_citas": "08:00",
+                        "fin_citas": "12:00"
+                     },
+                     {
+                        "inicio_citas": "14:00",
+                        "fin_citas": "18:00"
+                     }
+                  ]
+               },
+               {
+                  "numero": "49",
+                  "dia": "Martes, Jueves",
+                  "asignacion": [
+                  {
+                     "inicio_citas": "10:00",
+                     "fin_citas": "14:00"
+                  }
+                 ]
+               }
+            ]
+         },
+         {
+            "cedula": "80801112",
+            "nombre": "Juan Daniel",
+            "apellido": "Perez Parra",
+            "telefono": "316 222 3344",
+            "especialidades": "OD",
+            "semana": [
+               {
+                  "numero": "49",
+                  "dia": "Lunes, Miercoles",
+                  "asignacion":[ 
+                  {
+                     "inicio_citas": "08:00",
+                     "fin_citas": "12:00"
+                  }
+                 ]
+               },
+               {
+                  "numero": "49",
+                  "dia": "Martes, Jueves",
+                  "asignacion": [
+                  {
+                     "inicio_citas": "14:00",
+                     "fin_citas": "18:00"
+                  }
+                 ]
+               }
+            ]
+         },
+         {
+            "cedula": "80801113",
+            "nombre": "Juan Eduardo",
+            "apellido": "Martinez Tamayo",
+            "telefono": "316 255 6677",
+            "especialidades": "MI, MG",
+            "semana": [
+               {
+                  "numero": "49",
+                  "dia": "Martes, Jueves",
+                  "asignacion": [
+                     {
+                        "inicio_citas": "08:00",
+                        "fin_citas": "12:00"
+                     },
+                     {
+                        "inicio_citas": "14:00",
+                        "fin_citas": "18:00"
+                     }
+                  ]
+               },
+               {
+                  "numero": "49",
+                  "dia": "Lunes, Miercoles",
+                  "asignacion":[ 
+                  {
+                     "inicio_citas": "10:00",
+                     "fin_citas": "14:00"
+                  }
+                  ]
+               } 
+            ]
+         }
+      ]
+   }
+}
